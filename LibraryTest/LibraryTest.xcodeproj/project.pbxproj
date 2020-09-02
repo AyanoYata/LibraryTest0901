@@ -14,7 +14,7 @@
 		CE2230DB24FE5C8E00AFE3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2230D924FE5C8E00AFE3C7 /* Main.storyboard */; };
 		CE2230DD24FE5C9000AFE3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2230DC24FE5C9000AFE3C7 /* Assets.xcassets */; };
 		CE2230E024FE5C9000AFE3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2230DE24FE5C9000AFE3C7 /* LaunchScreen.storyboard */; };
-		CEFCB77324FF0B4F00327E67 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCB77224FF0B4F00327E67 /* PagingViewController.swift */; };
+		CEE5911224FFD0CD0078031D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5911124FFD0CD0078031D /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		CE2230DC24FE5C9000AFE3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2230DF24FE5C9000AFE3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2230E124FE5C9000AFE3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFCB77224FF0B4F00327E67 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		CEE5911124FFD0CD0078031D /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		D364FF0951CE663D17CCBB86 /* Pods-LibraryTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryTest.release.xcconfig"; path = "Target Support Files/Pods-LibraryTest/Pods-LibraryTest.release.xcconfig"; sourceTree = "<group>"; };
 		F4EB53DD0B3FF6B03212C0BE /* Pods-LibraryTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryTest.debug.xcconfig"; path = "Target Support Files/Pods-LibraryTest/Pods-LibraryTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,11 +73,11 @@
 		CE2230D224FE5C8E00AFE3C7 /* LibraryTest */ = {
 			isa = PBXGroup;
 			children = (
-				CE2230D324FE5C8E00AFE3C7 /* AppDelegate.swift */,
 				CE2230D524FE5C8E00AFE3C7 /* SceneDelegate.swift */,
 				CE2230D724FE5C8E00AFE3C7 /* ViewController.swift */,
-				CEFCB77224FF0B4F00327E67 /* PagingViewController.swift */,
+				CEE5911124FFD0CD0078031D /* ContentViewController.swift */,
 				CE2230D924FE5C8E00AFE3C7 /* Main.storyboard */,
+				CE2230D324FE5C8E00AFE3C7 /* AppDelegate.swift */,
 				CE2230DC24FE5C9000AFE3C7 /* Assets.xcassets */,
 				CE2230DE24FE5C9000AFE3C7 /* LaunchScreen.storyboard */,
 				CE2230E124FE5C9000AFE3C7 /* Info.plist */,
@@ -209,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5911224FFD0CD0078031D /* ContentViewController.swift in Sources */,
 				CE2230D824FE5C8E00AFE3C7 /* ViewController.swift in Sources */,
-				CEFCB77324FF0B4F00327E67 /* PagingViewController.swift in Sources */,
 				CE2230D424FE5C8E00AFE3C7 /* AppDelegate.swift in Sources */,
 				CE2230D624FE5C8E00AFE3C7 /* SceneDelegate.swift in Sources */,
 			);
